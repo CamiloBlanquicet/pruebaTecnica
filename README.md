@@ -11,8 +11,12 @@ Debe tener instalado en su máquina  lo siguiente: PHP (>= 8.0.0), [Laravel](htt
 composer install
 npm install
 
+# Cambiar nombre del .env
+ren .env.example .env
+
 # Generar la llave o Key que utiliza la aplicación
 php artisan key:generate
+
 
 # Construir CSS y JS con node 
 npm run dev
