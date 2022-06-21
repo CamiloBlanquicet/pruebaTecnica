@@ -36,7 +36,7 @@ En caso tal de que las migraciones hayan devuelto un error, también se adjuntar
 Una vez haya realizado todos los pasos correctamente ya puede correr el siguiente comando para lanzar o correr el servidor local.
 
 ``` bash
-php artisan migrate
+php artisan serve
 ```
 
 ¡El proyecto de muestra de Laravel ahora está en funcionamiento! Acceda a él en http://localhost:8000.
